@@ -17,7 +17,7 @@ export default function CourseCard({ id, title, description, credits, isElective
       </div>
       <p className="text-gray-600 mb-4 text-sm">{description}</p>
       <div className="flex justify-between text-xs text-gray-500 font-medium">
-        <span>Кредиты: {credits}</span>
+        <span>Credits: {credits}</span>
         <span>❤️ {likes}</span>
       </div>
     </Link>

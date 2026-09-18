@@ -31,9 +31,9 @@ export default function RootLayout({
           <nav className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
             <span className="font-bold text-lg text-blue-600">AWT Lab</span>
             <div className="flex gap-6 font-medium text-sm">
-              <Link href="/" className="hover:text-blue-600 transition">Главная</Link>
-              <Link href="/courses" className="hover:text-blue-600 transition">Курсы</Link>
-              <Link href="/about" className="hover:text-blue-600 transition">О проекте</Link>
+              <Link href="/" className="hover:text-blue-600 transition">Home</Link>
+              <Link href="/courses" className="hover:text-blue-600 transition">Courses</Link>
+              <Link href="/about" className="hover:text-blue-600 transition">About</Link>
             </div>
           </nav>
         </header>
