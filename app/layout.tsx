@@ -27,13 +27,19 @@ export default function RootLayout({
     <html lang="ru">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 min-h-screen text-gray-900`}>
         {/* Общая навигация для всех страниц */}
-        <header className="border-b bg-white shadow-sm">
-          <nav className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
+        <header className="border-b border-slate-200 bg-white">
+          <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <span className="font-bold text-lg text-blue-600">AWT Lab</span>
-            <div className="flex gap-6 font-medium text-sm">
-              <Link href="/" className="hover:text-blue-600 transition">Home</Link>
-              <Link href="/courses" className="hover:text-blue-600 transition">Courses</Link>
-              <Link href="/about" className="hover:text-blue-600 transition">About</Link>
+            <div className="flex gap-4 font-medium text-sm">
+              <Link href="/" className="px-3 py-2 rounded-md hover:bg-slate-100 transition">
+                Home
+              </Link>
+              <Link href="/courses" className="px-3 py-2 rounded-md hover:bg-slate-100 transition">
+                Courses
+              </Link>
+              <Link href="/about" className="px-3 py-2 rounded-md hover:bg-slate-100 transition">
+                About
+              </Link>
             </div>
           </nav>
         </header>
